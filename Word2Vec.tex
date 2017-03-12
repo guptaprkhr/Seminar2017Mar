@@ -109,8 +109,43 @@
 \subsection{GloVe}
 
 \begin{frame}{Matrix Factorization Methods}
+  \begin{itemize}
+   \item<2-> Models that can be described as optimization problems of the form
+    \begin{align}
+    \min_{U,V} F(UV^T)
+    \end{align}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{GloVe: Global Vectors for Word Representation}
+  \begin{block}{Some important definitions and notation}
+  \begin{enumerate} 
+     \item<2-> Context window is defined as the neighbourhood of a word and its length can be chosen 
+     as desired.
+     \item<3-> Word co-occurence matrix is denoted by $X$
+      \begin{enumerate}
+       \item<4-> where $X_{ij} =$ Number of times word $j$ appears in context of word $i$
+      \end{enumerate}
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}{GloVe: Global Vectors for Word Representation}
+  \begin{enumerate}
+   \item<2-> The aim is to capture $X_ij$ using the source embeddings $u_i$ and target embeddings $v_j$
+   \item<3-> The GloVe problem is thus formulated as 
+   \begin{align}
+    \min_{U,V} \sum{i,j \in W} f(X_{ij})(u_i^Tv_j + b_i + c_j + log (X_ij))
+   \end{align}
+    where $f(X_{ij})$ is the weight assigned to the source-target pair, $b_i$ and $c_j$ are the 
+    biases associated with $u_i$ and $v_j$ respectively and $W$ is the vocabulary.
+    \item<4-> $f(X_{ij})$ is often chosen to be $(\frac{X_{ij}}{Y})^\alpha$ where $Y = \max_{kl}X_{kl}$.
+    \item<5-> Empirically $\alpha = \frac{3}{4}$ gives the best performance.
+
+  \end{enumerate}
   
 \end{frame}
+
 
 \subsection{Second Subsection}
 
