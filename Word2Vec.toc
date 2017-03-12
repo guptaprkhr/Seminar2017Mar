@@ -1,6 +1,6 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Learning of word representations}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{GloVe}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Second Subsection}{15}{0}{1}
-\beamer@sectionintoc {2}{Second Main Section}{22}{0}{2}
-\beamer@subsectionintoc {2}{1}{Another Subsection}{22}{0}{2}
+\beamer@subsectionintoc {1}{2}{Word2Vec}{15}{0}{1}
+\beamer@sectionintoc {2}{Second Main Section}{28}{0}{2}
+\beamer@subsectionintoc {2}{1}{Another Subsection}{28}{0}{2}

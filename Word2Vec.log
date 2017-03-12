@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.23)  12 MAR 2017 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.23)  12 MAR 2017 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,13 +943,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [21
 
-] (./Word2Vec.toc) [22
+] [22
 
 ] [23
 
 ] [24
 
 ] [25
+
+] [26
+
+] [27
+
+] (./Word2Vec.toc) [28
+
+] [29
+
+] [30
+
+]
+[31
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonbook.pdf> </usr/
 share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>]
@@ -962,53 +975,43 @@ share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>]
 \tf@snm=\write8
 \openout8 = `Word2Vec.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
- (./Word2Vec.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
 
+(./Word2Vec.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
+Package rerunfilecheck Info: File `Word2Vec.out' has not changed.
+(rerunfilecheck)             Checksum: 755D88D0E90AB3CCE42D9EC58621DD1D;301.
 
-Package rerunfilecheck Warning: File `Word2Vec.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Word2Vec.out':
-(rerunfilecheck)             Before: 4D4CDDE625EBB1305C0F8B50C4CA2455;310
-(rerunfilecheck)             After:  5788B236BF06EC61F9633CE92954EAE3;310.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 16948 strings out of 494497
- 328186 string characters out of 6172400
- 390959 words of memory out of 5000000
- 19906 multiletter control sequences out of 15000+600000
+ 16949 strings out of 494497
+ 327949 string characters out of 6172400
+ 391959 words of memory out of 5000000
+ 19897 multiletter control sequences out of 15000+600000
  13927 words of font info for 52 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 48i,16n,65p,388b,1007s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.2.1.21} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.1.2.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb>
-Output written on Word2Vec.pdf (25 pages, 154441 bytes).
+ 48i,16n,65p,388b,905s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb>
+Output written on Word2Vec.pdf (31 pages, 182857 bytes).
 PDF statistics:
- 863 PDF objects out of 1000 (max. 8388607)
- 796 compressed objects within 8 object streams
- 64 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1041 PDF objects out of 1200 (max. 8388607)
+ 964 compressed objects within 10 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

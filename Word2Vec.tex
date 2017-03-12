@@ -119,19 +119,19 @@
 
 \begin{frame}{GloVe: Global Vectors for Word Representation}
   \begin{block}{Some important definitions and notation}
-  \begin{enumerate} 
+  \begin{itemize} 
      \item<2-> Context window is defined as the neighbourhood of a word and its length can be chosen 
      as desired.
      \item<3-> Word co-occurence matrix is denoted by $X$
-      \begin{enumerate}
+      \begin{itemize}
        \item<4-> where $X_{ij} =$ Number of times word $j$ appears in context of word $i$
-      \end{enumerate}
-    \end{enumerate}
+      \end{itemize}
+    \end{itemize}
   \end{block}
 \end{frame}
 
 \begin{frame}{GloVe: Global Vectors for Word Representation}
-  \begin{enumerate}
+  \begin{itemize}
    \item<2-> The aim is to capture $X_ij$ using the source embeddings $u_i$ and target embeddings $v_j$
    \item<3-> The GloVe problem is thus formulated as 
    \begin{align}
@@ -142,38 +142,68 @@
     \item<4-> $f(X_{ij})$ is often chosen to be $(\frac{X_{ij}}{Y})^\alpha$ where $Y = \max_{kl}X_{kl}$.
     \item<5-> Empirically $\alpha = \frac{3}{4}$ gives the best performance.
 
-  \end{enumerate}
+  \end{itemize}
   
 \end{frame}
 
 
-\subsection{Second Subsection}
+\subsection{Word2Vec}
+\begin{frame}{Word2Vec: CBOW and Skipgram models}
+  \begin{itemize}
+   \item<2-> Uses two difference architectures
+   \begin{enumerate}
+    \item<3-> Continuous bag-of-words (CBOW)
+    \item<4-> Continuous Skipgram
+  \end{enumerate}  
+   \end{itemize}
+  
+\end{frame}
 
 % You can reveal the parts of a slide one at a time
 % with the \pause command:
-\begin{frame}{Second Slide Title}
-  \begin{itemize}
-  \item {
-    First item.
-    \pause % The slide will pause after showing the first item
-  }
-  \item {   
-    Second item.
-  }
-  % You can also specify when the content should appear
-  % by using <n->:
-  \item<3-> {
-    Third item.
-  }
-  \item<4-> {
-    Fourth item.
-  }
-  % or you can use the \uncover command to reveal general
-  % content (not just \items):
-  \item<5-> {
-    Fifth item. \uncover<6->{Extra text in the fifth item.}
-  }
-  \end{itemize}
+\begin{frame}{Word2Vec:CBOW}
+\begin{itemize}
+ \item<2-> []
+ \begin{block}{Intuition}
+    For the CBOW architecture, the task is to 
+    \begin{itemize}
+     \item<3-> predict the word $w$ given the context $\mathcal{C}(w)$
+    \end{itemize}
+
+ \end{block}
+ \item<4-> []
+ \begin{block}{Formulation}
+ Given a sequence of training words $w_1, \ldots, w_n$, the maximum likelihood formulation for 
+ the CBOW architecture can be written as 
+ \begin{align}  
+  \sum_{i=1}^{n} \sum_{w_j \in \mathcal{C}(w_i)} \log{p(w_j|w_i)}
+ \end{align} 
+ \end{block}
+ 
+\end{itemize} 
+ 
+\end{frame}
+
+\begin{frame}{Word2Vec:Skipgram}
+ \begin{itemize}
+ \item<2-> []
+ \begin{block}{Intuition}
+    For the Skipgram architecture, the task is to 
+    \begin{itemize}
+     \item<3-> predict the context $\mathcal{C}(w)$ given the word $w$
+    \end{itemize}
+
+ \end{block}
+ \item<4-> []
+ \begin{block}{Formulation}
+ Given a sequence of training words $w_1, \ldots, w_n$, the maximum likelihood formulation for 
+ the CBOW architecture can be written as 
+ \begin{align}  
+  \sum_{i=1}^{n} \sum_{w_j \in \mathcal{C}(w_i)} \log{p(w_i|w_j)}
+ \end{align} 
+ \end{block}
+ 
+\end{itemize} 
 \end{frame}
 
 \section{Second Main Section}
